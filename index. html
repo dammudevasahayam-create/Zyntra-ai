@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zyntra AI</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+text-align:center;
+}
+
+header{
+padding:20px;
+font-size:28px;
+font-weight:bold;
+color:#00bfff;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+color:#c9d1d9;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:#00bfff;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+.services{
+padding:40px 20px;
+}
+
+.card{
+background:#161b22;
+margin:15px;
+padding:20px;
+border-radius:15px;
+}
+
+footer{
+padding:20px;
+margin-top:40px;
+background:#161b22;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+🚀 Zyntra AI
+</header>
+
+<section class="hero">
+
+<h1>Build Your Future with AI</h1>
+
+<p>
+AI Tools • Website Development • Digital Services
+</p>
+
+<button>Start for ₹9</button>
+
+</section>
+
+<section class="services">
+
+<div class="card">
+🤖 AI Chat
+</div>
+
+<div class="card">
