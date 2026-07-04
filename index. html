@@ -21,51 +21,51 @@ text-align:center;
 
 header{
 padding:20px;
-font-size:28px;
+font-size:30px;
 font-weight:bold;
-color:#00bfff;
+background:#111827;
+color:#00e5ff;
 }
 
 .hero{
-padding:60px 20px;
+padding:80px 20px;
 }
 
 .hero h1{
-font-size:40px;
+font-size:50px;
+margin-bottom:20px;
 }
 
 .hero p{
-margin-top:15px;
-font-size:18px;
-color:#c9d1d9;
+font-size:20px;
+color:#bbb;
+margin-bottom:40px;
 }
 
 button{
-margin-top:30px;
 padding:15px 35px;
-border:none;
-border-radius:30px;
-background:#00bfff;
-color:white;
 font-size:18px;
+border:none;
+border-radius:8px;
+margin:10px;
 cursor:pointer;
 }
 
-.services{
-padding:40px 20px;
+.login{
+background:#00e5ff;
+color:black;
 }
 
-.card{
-background:#161b22;
-margin:15px;
-padding:20px;
-border-radius:15px;
+.signup{
+background:#22c55e;
+color:white;
 }
 
 footer{
+margin-top:100px;
 padding:20px;
-margin-top:40px;
-background:#161b22;
+background:#111827;
+color:#888;
 }
 </style>
 
@@ -74,26 +74,28 @@ background:#161b22;
 <body>
 
 <header>
-🚀 Zyntra AI
+🤖 Zyntra AI
 </header>
 
 <section class="hero">
 
-<h1>Build Your Future with AI</h1>
+<h1>Future Starts With AI</h1>
 
 <p>
-AI Tools • Website Development • Digital Services
+Build • Learn • Create • Earn
 </p>
 
-<button>Start for ₹9</button>
+<button class="login">Login</button>
+
+<button class="signup">Sign Up</button>
 
 </section>
 
-<section class="services">
+<footer>
 
-<div class="card">
-🤖 AI Chat
-</div>
+© 2026 Zyntra AI
 
-<div class="card">
- 
+</footer>
+
+</body>
+</html>
