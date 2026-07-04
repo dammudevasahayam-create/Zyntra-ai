@@ -14,16 +14,16 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#0d1117;
+background:#0f172a;
 color:white;
 text-align:center;
 }
 
 header{
-padding:20px;
-font-size:30px;
-font-weight:bold;
 background:#111827;
+padding:20px;
+font-size:32px;
+font-weight:bold;
 color:#00e5ff;
 }
 
@@ -32,45 +32,38 @@ padding:80px 20px;
 }
 
 .hero h1{
-font-size:50px;
+font-size:48px;
 margin-bottom:20px;
+color:#ffffff;
 }
 
 .hero p{
 font-size:20px;
-color:#bbb;
+color:#cbd5e1;
 margin-bottom:40px;
 }
 
-button{
+.btn{
+display:inline-block;
 padding:15px 35px;
-font-size:18px;
-border:none;
-border-radius:8px;
 margin:10px;
-cursor:pointer;
-transition:0.3s;
-}
-
-.login{
 background:#00e5ff;
-color:black;
+color:#000;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
 }
 
-.signup{
+.btn2{
 background:#22c55e;
-color:white;
-}
-
-button:hover{
-transform:scale(1.05);
+color:#fff;
 }
 
 footer{
-margin-top:100px;
+margin-top:80px;
 padding:20px;
 background:#111827;
-color:#888;
+color:#94a3b8;
 }
 </style>
 
@@ -90,9 +83,9 @@ color:#888;
 Build • Learn • Create • Earn
 </p>
 
-<button class="login">Login</button>
+<a href="#" class="btn">Login</a>
 
-<button class="signup">Sign Up</button>
+<a href="#" class="btn btn2">Sign Up</a>
 
 </section>
 
@@ -102,4 +95,3 @@ Build • Learn • Create • Earn
 
 </body>
 </html>
- 
